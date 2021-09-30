@@ -1,11 +1,6 @@
-# Automated Valet Car Parking Backend
+# Parking System
 
-Automated Valet Car Parking Backend takes input from a text file to generate parking slots and events. Each vehicle upon entry can only park in a lot available for that vehicle type. If there are no lots available for that vehicle type, it should be denied an entry into the space.
-
-All the lots in the parking space can be considered as being distinctly numbered eg: CarLot1, CarLot2,..., MotorcycleLot1, MotorcycleLot2,.... Each vehicle upon entering is allotted to the lot with the lowest number for that vehicular type eg: a car entering a parking space with the available lots CarLot2, CarLot4, CarLot5 would be assigned to CarLot2.
-
-When a vehicle wants to exit the car park, the system will return the parking lot that the vehicle will be removed from and charge them an appropriate parking fee (rounded up to the nearest hour, i.e., 1hr 1min is charged as 2hr): $1/hour for a motorcycle and $2/hour for a car.
-
+This parking system application takes input to generate parking slots and events. Parking events are then consumed by the application to park cars and motorcycles for an hourly fee.
 
 ## Assumptions
 
