@@ -10,9 +10,9 @@ log_level = (
     os.environ.get("LOG_LEVEL") if os.environ.get("LOG_LEVEL") else DEFAULT_LOG_LEVEL
 )
 
-if log_level is "DEBUG":
+if log_level == "DEBUG":
     logger.setLevel(logging.DEBUG)
-elif log_level is "WARNING":
+elif log_level == "WARNING":
     logger.setLevel(logging.WARNING)
 else:
     logger.setLevel(logging.INFO)
