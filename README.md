@@ -65,6 +65,7 @@ This parking system application takes input to generate parking slots and events
 
 ```
 # install docker
+apt update
 apt install -y docker.io
 
 # navigate to the project directory i.e. the location of this README.md file
@@ -80,7 +81,7 @@ docker build --tag parking-system-riyadh .
  - The following command will run the application with default input provided with the assignment. It is stored at project root as example_input.txt
 ```
 # Run docker image - this will run the 
-dokcer run parking-system-riyadh
+docker run parking-system-riyadh
 ```
 - If we want to make changes to the code and test, then `docker build` command from above needs to be run again
 
@@ -103,3 +104,7 @@ python3 -m unittest discover -v
 
 ### Running without docker
 - The application can also be run without going the docker route given the system has Python 3.9 and Pip3 is installed. Dependencies can be installed with `pip3 install -r requirements.txt`. Then use the last two commands in the above snippet to run the application and test cases.
+
+
+### Demo
+- [Click here to run the application in your browser with replit[(https://replit.com/@riyadhctg/parkingsystem?v=1)]
