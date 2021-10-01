@@ -63,6 +63,12 @@ This parking system application takes input to generate parking slots and events
 - To avoid potential version / compatibility issue, running it inside docker is recommended.
 - Please note that running the some of the commands using `sudo` may be required depending on the logged in user / permission. 
 
+### Get the application 
+- If you already have this application from me, then great! Otherwise, clone this repo: 
+```
+git clone https://github.com/riyadhctg/parking_system.git
+```
+
 ```
 # install docker
 apt update
