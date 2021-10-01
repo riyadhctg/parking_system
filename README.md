@@ -1,5 +1,5 @@
 # Parking System
-This parking system application takes input to generate parking slots and events. Parking events are then consumed by the application to park cars and motorcycles for an hourly fee.
+This parking system application takes input from a text file to generate parking slots and events. Parking events are then consumed by the application to park cars and motorcycles for an hourly fee.
 
 ## Assumptions
  - Max length of number plate of 20
