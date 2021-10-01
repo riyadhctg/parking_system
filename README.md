@@ -12,7 +12,7 @@ This parking system application takes input to generate parking slots and events
 - Test cases are within `test` folder
 - `utility` folder contains various helper functions
 
-
+```bash
 📦project_directory
 ┣ 📂parking_system
 ┃ ┣ 📂controller
@@ -53,6 +53,7 @@ This parking system application takes input to generate parking slots and events
 ┣ 📜README.md
 ┣ 📜example_input.txt
 ┗ 📜requirements.txt
+```
 
 ## Installation
 - To avoid potential version / compatibility issue, running it inside docker is recommended.
