@@ -66,7 +66,7 @@ This parking system application takes input from a text file to generate parking
 ### Get the application 
 - If you already have this application from me, then great! Otherwise, clone this repo: 
 ```
-git clone https://github.com/riyadhctg/parking_system.git
+git clone https://github.com/riyadhctg/parking_system_project.git
 ```
 
 ```
