@@ -60,14 +60,14 @@ This parking system application takes input from a text file to generate parking
 ```
 
 ## Installation
-- To avoid potential version / compatibility issue, running it inside docker is recommended.
-- Please note that running the some of the commands using `sudo` may be required depending on the logged in user / permission. 
-
 ### Get the application 
 - If you already have this application from me, then great! Otherwise, clone this repo: 
 ```
 git clone https://github.com/riyadhctg/parking_system_project.git
 ```
+- To avoid potential version / compatibility issue, running it inside docker is recommended.
+- Please note that running some of the commands using `sudo` may be required depending on the logged in user / permission. 
+
 
 ```
 # install docker
