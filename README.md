@@ -7,14 +7,14 @@ This parking system application takes input to generate parking slots and events
  - A valid parking event timestamp is between the range of last 50 years and next 50 years relative to current date
 
 
+## Notable Dependencies
+- This application uses `in-memory` `Sqlite` Database
+- It also uses a lightweight ORM named `peewee`
+
 ## Project Structure
 - Structure of this project is inspired by [Route-Controller-Service](https://sodocumentation.net/node-js/topic/10785/route-controller-service-structure-for-expressjs)
 - Test cases are within `test` folder
 - `utility` folder contains various helper functions
-
-## Notable Dependencies
-- This application uses `in-memory` `Sqlite` Database
-- It also uses a lightweight ORM named `peewee`
 
 ```bash
 📦project_directory
