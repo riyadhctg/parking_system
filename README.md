@@ -12,6 +12,10 @@ This parking system application takes input to generate parking slots and events
 - Test cases are within `test` folder
 - `utility` folder contains various helper functions
 
+## Notable Dependencies
+- This application uses `in-memory` `Sqlite` Database
+- It also uses a lightweight ORM named `peewee`
+
 ```bash
 📦project_directory
 ┣ 📂parking_system
