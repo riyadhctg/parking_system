@@ -113,4 +113,4 @@ python3 -m unittest discover -v
 
 
 ### Demo
-- [Click here to run the application in your browser with replit[(https://replit.com/@riyadhctg/parkingsystem?v=1)]
+- [Click here to run the application in your browser with replit](https://replit.com/@riyadhctg/parkingsystem?v=1)
