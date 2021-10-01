@@ -12,47 +12,47 @@ This parking system application takes input to generate parking slots and events
 - Test cases are within `test` folder
 - `utility` folder contains various helper functions
 
-📦project_directoru
- ┣ 📂parking_system
- ┃ ┣ 📂controller
- ┃ ┃ ┣ 📜__init__.py
- ┃ ┃ ┣ 📜allocate_slots.py
- ┃ ┃ ┣ 📜park_vehicle.py
- ┃ ┃ ┗ 📜unpark_vehicle.py
- ┃ ┣ 📂model
- ┃ ┃ ┣ 📜__init__.py
- ┃ ┃ ┣ 📜db_init.py
- ┃ ┃ ┣ 📜parking_record.py
- ┃ ┃ ┗ 📜slot.py
- ┃ ┣ 📂route
- ┃ ┃ ┣ 📜__init__.py
- ┃ ┃ ┣ 📜router.py
- ┃ ┃ ┗ 📜routes.py
- ┃ ┣ 📂service
- ┃ ┃ ┣ 📜__init__.py
- ┃ ┃ ┣ 📜parking_record_service.py
- ┃ ┃ ┗ 📜slot_service.py
- ┃ ┣ 📂test
- ┃ ┃ ┣ 📂mock_data
- ┃ ┃ ┣ 📜__init__.py
- ┃ ┃ ┗ 📜test_cases.py
- ┃ ┣ 📂utility
- ┃ ┃ ┣ 📜__init__.py
- ┃ ┃ ┣ 📜constants.py
- ┃ ┃ ┣ 📜error_utilities.py
- ┃ ┃ ┣ 📜helper_functions.py
- ┃ ┃ ┣ 📜input_preprocessor.py
- ┃ ┃ ┣ 📜input_validator.py
- ┃ ┃ ┗ 📜logger.py
- ┃ ┣ 📜__init__.py
- ┃ ┣ 📜__main__.py
- ┃ ┗ 📜app.py
- ┣ 📜Dockerfile
- ┣ 📜LICENSE
- ┣ 📜README.md
- ┣ 📜example_input.txt
- ┗ 📜requirements.txt
 
+📦project_directory
+┣ 📂parking_system
+┃ ┣ 📂controller
+┃ ┃ ┣ 📜__init__.py
+┃ ┃ ┣ 📜allocate_slots.py
+┃ ┃ ┣ 📜park_vehicle.py
+┃ ┃ ┗ 📜unpark_vehicle.py
+┃ ┣ 📂model
+┃ ┃ ┣ 📜__init__.py
+┃ ┃ ┣ 📜db_init.py
+┃ ┃ ┣ 📜parking_record.py
+┃ ┃ ┗ 📜slot.py
+┃ ┣ 📂route
+┃ ┃ ┣ 📜__init__.py
+┃ ┃ ┣ 📜router.py
+┃ ┃ ┗ 📜routes.py
+┃ ┣ 📂service
+┃ ┃ ┣ 📜__init__.py
+┃ ┃ ┣ 📜parking_record_service.py
+┃ ┃ ┗ 📜slot_service.py
+┃ ┣ 📂test
+┃ ┃ ┣ 📂mock_data
+┃ ┃ ┣ 📜__init__.py
+┃ ┃ ┗ 📜test_cases.py
+┃ ┣ 📂utility
+┃ ┃ ┣ 📜__init__.py
+┃ ┃ ┣ 📜constants.py
+┃ ┃ ┣ 📜error_utilities.py
+┃ ┃ ┣ 📜helper_functions.py
+┃ ┃ ┣ 📜input_preprocessor.py
+┃ ┃ ┣ 📜input_validator.py
+┃ ┃ ┗ 📜logger.py
+┃ ┣ 📜__init__.py
+┃ ┣ 📜__main__.py
+┃ ┗ 📜app.py
+┣ 📜Dockerfile
+┣ 📜LICENSE
+┣ 📜README.md
+┣ 📜example_input.txt
+┗ 📜requirements.txt
 
 ## Installation
 - To avoid potential version / compatibility issue, running it inside docker is recommended.
