@@ -1,6 +1,14 @@
-from parking_system.utility.constants import *
 import re
-from parking_system.utility.error_utilities import *
+from parking_system.utility.constants import (
+    NUM_PLATE_MAX_LENGTH,
+    MAX_YEAR_DELTA_FOR_PARKING_EVENT,
+    VehicleCategory,
+)
+from parking_system.utility.error_utilities import (
+    InvalidInputError,
+    MissingInputParameterError,
+    InvalidAllotmentError,
+)
 
 
 def is_valid_num_plate(num_plate):

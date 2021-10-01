@@ -1,5 +1,5 @@
-from parking_system import app
 import sys
+from parking_system import app
 
 if __name__ == "__main__":
     try:

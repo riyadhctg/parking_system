@@ -1,7 +1,8 @@
 from dotenv import load_dotenv
+
 load_dotenv()
 from parking_system.utility.error_utilities import InvalidInputError
-from parking_system.utility.constants import *
+from parking_system.utility.constants import ParkingEventType
 from parking_system.model.slot import Slot
 from parking_system.model.parking_record import ParkingRecord
 from parking_system.model.db_init import db

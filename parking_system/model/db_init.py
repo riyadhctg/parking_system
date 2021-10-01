@@ -1,6 +1,6 @@
-from parking_system.utility.constants import DEFAULT_DB_CONNECTION_STRING
 import peewee
 import os
+from parking_system.utility.constants import DEFAULT_DB_CONNECTION_STRING
 from parking_system.utility.logger import logger
 
 

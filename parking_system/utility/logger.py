@@ -1,6 +1,7 @@
 import logging
-from parking_system.utility.constants import LOGGER_NAME, DEFAULT_LOG_LEVEL
 import os
+from parking_system.utility.constants import LOGGER_NAME, DEFAULT_LOG_LEVEL
+
 
 logging.basicConfig(
     format="%(asctime)s [%(levelname)s]: %(message)s", datefmt="%d-%b-%y %H:%M:%S"

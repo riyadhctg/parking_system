@@ -5,7 +5,7 @@ def select_available_slots(vehicle_category):
     """
     Selects available slots
     """
-    
+
     return Slot.select().where(
         (Slot.vehicle_category == vehicle_category) & (Slot.is_available == True)
     )

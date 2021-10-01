@@ -1,5 +1,5 @@
 from parking_system.service.slot_service import create_slots
-from parking_system.utility.constants import *
+from parking_system.utility.constants import VehicleCategory
 from parking_system.utility.helper_functions import create_slot_object_list
 from parking_system.utility.logger import logger
 

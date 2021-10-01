@@ -1,10 +1,10 @@
-from parking_system.utility.constants import LOGGER_NAME
 import unittest
-from parking_system.app import run
-from parking_system.utility.error_utilities import *
-from parking_system.model.db_init import db
 import io
 import os
+from parking_system.app import run
+from parking_system.utility.error_utilities import InvalidAllotmentError
+from parking_system.model.db_init import db
+from parking_system.utility.constants import LOGGER_NAME
 from contextlib import redirect_stdout
 
 

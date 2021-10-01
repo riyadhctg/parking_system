@@ -3,8 +3,12 @@ from parking_system.utility.input_validator import (
     validate_exit_event,
     validate_slot_allotment_event,
 )
-from parking_system.utility.constants import *
-from parking_system.utility.error_utilities import *
+from parking_system.utility.constants import ParkingEventType
+from parking_system.utility.error_utilities import (
+    InvalidInputError,
+    MissingInputParameterError,
+    InvalidAllotmentError,
+)
 from parking_system.utility.logger import logger
 
 

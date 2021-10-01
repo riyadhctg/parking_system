@@ -4,7 +4,7 @@ from parking_system.service.parking_record_service import (
     insert_parking_record,
 )
 from parking_system.service.slot_service import update_slot, select_available_slots
-from parking_system.utility.constants import *
+from parking_system.utility.constants import ParkingSystemResponseType
 from parking_system.utility.logger import logger
 
 

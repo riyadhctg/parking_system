@@ -1,6 +1,8 @@
 import peewee
-from parking_system.utility.constants import *
-from parking_system.utility.error_utilities import *
+from parking_system.utility.constants import (
+    NUM_PLATE_MAX_LENGTH,
+    DB_VEHICLE_CATEGORY_CONSTRAINT_CHECK_STRING,
+)
 from parking_system.model.db_init import db
 
 

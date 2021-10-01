@@ -1,7 +1,4 @@
-from parking_system.utility.constants import ParkingEventType, VehicleCategory
-from parking_system.utility.error_utilities import *
-from parking_system.utility.input_validator import *
-from parking_system.utility.logger import logger
+from parking_system.utility.constants import VehicleCategory
 
 
 def create_slot_object_list(category, quantity):
@@ -19,7 +16,7 @@ def create_slot_object_list(category, quantity):
 
 def calculate_fee(entry_time, exit_time, vehicle_category):
     """
-    Calculates parking fee based on exit and entry time at $1 per hour. 
+    Calculates parking fee based on exit and entry time at $1 per hour.
     Any fraction of hour is considered a full hour for billing purposes.
     """
 
