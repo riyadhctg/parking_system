@@ -71,7 +71,8 @@ docker build --tag parking-system-riyadh .
 
 ```
 
-## How to run - basic
+## How to run
+### Basic
  - The following command will run the application with default input provided with the assignment. It is stored at project root as example_input.txt
 ```
 # Run docker image - this will run the 
@@ -79,7 +80,7 @@ dokcer run parking-system-riyadh
 ```
 - If we want to make changes to the code and test, then `docker build` command from above needs to be run again
 
-## How to run - advanced
+### Advanced
 - In the basic method, the container runs the application and then exits. It shows the output for default input on the console. This method shows how to run the application from within the container
 ```
 # To keep the container running
@@ -94,4 +95,7 @@ python3 -m parking_system example_input.txt
 # Run test cases
 python3 -m unittest discover -v  
 ```
-- Using this method, we can quickly make changes to the code and test, using `vi`.
+- Using this method, we can quickly make small changes to the code using `vi` and test.
+
+### Running without docker
+- The application can also be run without going the docker route given the system has Python 3.9 and Pip3 is installed. Dependencies can be installed with `pip3 install -r requirements.txt`. Then use the last two commands in the above snippet to run the application and test cases.
