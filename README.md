@@ -109,7 +109,21 @@ python3 -m unittest discover -v
 - Using this method, we can quickly make small changes to the code using `vi` and test.
 
 ### Running without docker
-- The application can also be run without going the docker route given the system has Python 3.9 and Pip3 is installed. Dependencies can be installed with `pip3 install -r requirements.txt`. Then use the last two commands in the above snippet to run the application and test cases.
+The application can also be run without going the docker route given the system has Python 3.9 and Pip3 is installed. 
+
+- Method 1: Dependencies can be installed with `pip3 install -r requirements.txt`. Then use the last two commands in the above snippet to run the application and test cases.
+
+- Method 2: Another way to run without docker is to run using `pipenv` (recommended if not using docker):
+```
+# install pipenv
+pip3 install pipenv
+
+# install dependencies
+pipenv run pip3 install -r requirements.txt
+
+# run the app
+pipenv run python -m parking_system example_input.txt
+```
 
 
 ### Demo

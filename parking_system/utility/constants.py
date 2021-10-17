@@ -3,7 +3,7 @@ from enum import Enum
 
 DEFAULT_DB_CONNECTION_STRING = ":memory:"
 LOGGER_NAME = "parking_system_logger"
-DEFAULT_LOG_LEVEL = "DEBUG"
+DEFAULT_LOG_LEVEL = "WARNING"
 
 
 # Assumed constants

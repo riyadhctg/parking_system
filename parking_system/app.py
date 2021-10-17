@@ -42,8 +42,7 @@ def run(input_file):
     Runs the parking system application
     """
 
-    inputs = parse_inputs(input_file)
-    slot_allotments, parking_events = inputs
+    slot_allotments, parking_events = parse_inputs(input_file)
     setup_database()
     route_requests(str(Routes.ALLOCATE_SLOTS.value), slot_allotments)
     for event in parking_events:
