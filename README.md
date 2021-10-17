@@ -84,7 +84,7 @@ docker build --tag parking-system-riyadh .
 
 ## How to run
 ### Basic
- - The following command will run the application with default input provided with the assignment. It is stored at project root as example_input.txt
+ - The following command will run the application with default input. It is stored at project root as example_input.txt
 ```
 # Run docker image - this will run the 
 docker run parking-system-riyadh

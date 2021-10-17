@@ -15,5 +15,7 @@ if log_level == "DEBUG":
     logger.setLevel(logging.DEBUG)
 elif log_level == "WARNING":
     logger.setLevel(logging.WARNING)
-else:
+elif log_level == "INFO":
     logger.setLevel(logging.INFO)
+else:
+    logger.setLevel(logging.NOTSET)
